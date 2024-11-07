@@ -1,0 +1,15 @@
+.form-check-input {
+    margin-top: 0.3rem;
+}
+
+.invalid-feedback {
+    font-size: 0.875em;
+}
+
+.form-control {
+    margin-top: 0.3rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}

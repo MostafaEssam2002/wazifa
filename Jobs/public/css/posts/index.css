@@ -1,0 +1,81 @@
+.post-section {
+    background-color: #2c3e50; /* لون خلفية داكن ناعم */
+    color: #ecf0f1; /* نص أبيض ناعم */
+}
+.post-section .border-warning {
+    border-color: #e67e22 !important; /* لون برتقالي دافئ للتباين */
+}
+.post-header p {
+    color: #f39c12; /* لون النص البرتقالي */
+}
+
+.btn-outline-primary {
+    border-color: #2980b9; /* أزرق سماوي ناعم */
+    color: #2980b9;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.btn-outline-light {
+    border-color: #ecf0f1; /* أبيض ناعم */
+    color: #ecf0f1;
+}
+
+.btn-outline-light:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50; /* عند التمرير، يصبح اللون الأبيض هو الخلفية */
+}
+
+.sidebar h3 {
+    color: #ecf0f1;
+}
+
+.col-md-3 {
+    background-color: #2c3238;
+    padding: 20px;
+    height: 100%;
+}
+
+.form-check {
+    padding-left: 50px;
+}
+
+input[type="checkbox"] {
+    appearance: none; /* إزالة التصميم الافتراضي */
+    -webkit-appearance: none; /* للمتصفحات القائمة على WebKit */
+    -moz-appearance: none; /* لمتصفح Firefox */
+    background-color: #ecf0f1; /* لون خلفية مبدئي */
+    border: 2px solid #2980b9; /* لون الحدود */
+    width: 20px; /* عرض checkbox */
+    height: 20px; /* ارتفاع checkbox */
+    cursor: pointer; /* المؤشر عند التحويم */
+    border-radius: 50%; /* جعل الشكل دائري */
+    display: inline-block; /* عرض على السطر */
+    position: relative; /* لتحريك العنصر إذا لزم */
+    transition: all 0.3s ease; /* تأثير الحركة الناعم عند التحويم */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2980b9; /* تغيير لون الخلفية عند التأشير */
+    border-color: #2980b9; /* تغيير لون الحدود عند التأشير */
+}
+
+input[type="checkbox"]:checked::before {
+    content: '\2713'; /* إضافة علامة صح */
+    font-size: 14px; /* حجم العلامة */
+    color: #fff; /* لون العلامة */
+    display: block;
+    text-align: center;
+    line-height: 18px; /* لضبط العلامة في المنتصف */
+}
+
+.form-check-label {
+    color: #0b5ed7;
+}
+
+.search-bar {
+    margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+#alert {
+    display: none;
+    margin-top: 1rem;
+}
+
+#usersTable {
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-close {
+    float: right;
+    font-size: 1.2rem;
+}

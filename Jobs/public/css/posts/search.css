@@ -1,0 +1,133 @@
+.post-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-header {
+    border-bottom: 2px solid #b89b59;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.post-title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-title-text {
+    margin: 0;
+    color: #b89b59;
+    font-size: 0.9rem;
+}
+.post-meta {
+    margin: 0;
+    color: #b89b59;
+    font-size: 0.8rem;
+}
+.post-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.post-image img {
+    max-width: 100%;
+    border: 3px solid #b89b59;
+    border-radius: 10px;
+}
+.like-comment-section {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.like-button {
+    display: flex;
+    gap: 10px;
+}
+.like-btn {
+    font-size: 32px;
+    background-color: transparent;
+    color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+}
+.comment-btn, .count-btn {
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.comment-section, .like-section {
+    margin-top: 20px;
+}
+.comment {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+.comment-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.comment-user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment-user-name {
+    margin: 0;
+    color: #b89b59;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.comment-content {
+    margin: 5px 0 0;
+    color: #d1d1d1;
+}
+.comment-attachment {
+    margin-top: 10px;
+}
+.comment-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.comment-form textarea {
+    resize: none;
+    border-radius: 5px;
+    width: 85%;
+    height: 60px;
+}
+.submit-comment-btn {
+    white-space: nowrap;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+.admin-actions {
+    margin-top: 20px;
+}
+.comment-btn{
+    color: cornflowerblue;
+    font-size: 30px;
+}

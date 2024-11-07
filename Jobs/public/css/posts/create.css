@@ -1,0 +1,27 @@
+.post-create-container {
+    margin-top: 30px;
+}
+.post-create-container .mb-4 {
+    margin-bottom: 1.5rem;
+}
+.post-create-container .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.post-create-container .form-control-lg {
+    font-size: 1.2rem;
+}
+.post-create-container .form-group {
+    margin-bottom: 1rem;
+}
+.post-create-container .d-flex {
+    display: flex;
+}
+.post-create-container .justify-content-between {
+    justify-content: space-between;
+}
+.post-create-container .btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}

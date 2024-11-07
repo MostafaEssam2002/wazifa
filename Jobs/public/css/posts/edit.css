@@ -1,0 +1,33 @@
+.post-edit-container {
+    margin-top: 30px;
+}
+.post-edit-container .mb-4 {
+    margin-bottom: 1.5rem;
+}
+.post-edit-container .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+.post-edit-container .form-control-lg {
+    font-size: 1.2rem;
+}
+.post-edit-container .form-group {
+    margin-bottom: 1rem;
+}
+.post-edit-container .d-flex {
+    display: flex;
+}
+.post-edit-container .justify-content-between {
+    justify-content: space-between;
+}
+.post-edit-container .btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+.post-edit-container img {
+    max-width: 200px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    margin-top: 10px;
+}

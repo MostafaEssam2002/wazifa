@@ -1,0 +1,17 @@
+.container {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    color: #fff;
+}
+.form-control {
+    border-radius: 5px;
+    color: #fff;
+}
+.form-control:focus {
+    color: #fff;
+}
+.btn-primary {
+    border: none;
+}

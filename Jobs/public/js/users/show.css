@@ -1,0 +1,59 @@
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    max-width: 60%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.post-header {
+    border-bottom: 2px solid #b89b59;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-title {
+    font-size: 1rem;
+    color: #b89b59;
+    margin: 0;
+    text-align: left;
+}
+
+.post-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.post-image {
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+.post-image img {
+    max-width: 100%;
+    border: 3px solid #b89b59;
+    border-radius: 10px;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}

@@ -1,0 +1,112 @@
+.post-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #2c2c2c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    border-bottom: 2px solid #b89b59;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-title {
+    margin: 0;
+    color: #b89b59;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.post-meta {
+    margin: 0;
+    color: #888;
+    font-size: 0.8rem;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #d1d1d1;
+}
+
+.post-image {
+    max-width: 100%;
+    border: 3px solid #b89b59;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.like-comment-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.like-button,
+.comment-button,
+.likes-count-button,
+.comments-count-button {
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#likeList, #commentSection {
+    margin-top: 20px;
+}
+#likeList div{
+    margin-top: 20px;
+}
+.comment-form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment-user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.comment-container {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+.comment-user-name {
+    margin: 0;
+    color: #b89b59;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.comment-content {
+    margin: 5px 0;
+    color: #d1d1d1;
+}
+.comment-button{
+    font-size: 30px;
+    color: cornflowerblue
+}

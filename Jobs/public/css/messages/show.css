@@ -1,0 +1,102 @@
+.containerm {
+    margin-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 35px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.chat-box {
+    padding: 10px;
+    margin-bottom: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    color: #e4e6eb;
+    border-radius: 10px;
+}
+
+.message-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.sent-wrapper {
+    justify-content: flex-end;
+}
+
+.received-wrapper {
+    justify-content: flex-start;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 60%;
+    position: relative;
+}
+
+.message.sent {
+    background-color: #0084ff;
+    color: white;
+    border-top-right-radius: 0;
+}
+
+.message.received {
+    background-color: #3a3b3c;
+    color: white;
+    border-top-left-radius: 0;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sent-wrapper .profile-icon {
+    order: 1;
+}
+
+.message-time {
+    display: none; /* إخفاء الوقت افتراضياً */
+    font-size: 0.8em;
+    color: #b0b3b8;
+}
+
+.message:hover .message-time {
+    display: block;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-group textarea {
+    background-color: #5885b3;
+    color: #ffffff; /* لون النص في حقل النص */
+    border: none;
+    border-radius: 10px;
+}
+
+.send-button {
+    font-size: 30px;
+    background-color: transparent;
+    color: cornflowerblue;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.send-button:hover {
+    color: darkblue; /* تغيير اللون عند التحويم */
+}
